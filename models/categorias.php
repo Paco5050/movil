@@ -9,7 +9,7 @@ class Categorias extends Validator
     private $nombre = null;
     private $imagen = null;
     private $descripcion = null;
-    private $ruta = 'http://34.125.94.31/var/www/html/movil/php/categorias/';
+    private $ruta = 'http://34.125.94.31/var/www/html/movil/categorias/';
 
     /*
     *   Métodos para validar y asignar valores de los atributos.
