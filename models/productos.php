@@ -12,7 +12,7 @@ class Productos extends Validator
     private $imagen = null;
     private $categoria = null;
     private $estado = null;
-    private $ruta = 'http://34.125.94.31/var/www/html/movil/php/productos/';
+    private $ruta = 'http://34.125.94.31/var/www/html/movil/productos/';
 
     /*
     *   Métodos para validar y asignar valores de los atributos.
