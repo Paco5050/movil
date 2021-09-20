@@ -1,7 +1,7 @@
 <?php
-require_once('http://34.125.94.31/var/www/html/movil/php/helpers/database.php');
-require_once('http://34.125.94.31/var/www/html/movil/php/helpers/validator.php');
-require_once('http://34.125.94.31/var/www/html/movil/php/models/clientes.php');
+require_once('http://34.125.94.31/var/www/html/movil/helpers/database.php');
+require_once('http://34.125.94.31/var/www/html/movil/helpers/validator.php');
+require_once('http://34.125.94.31/var/www/html/movil/models/clientes.php');
 
 // Se comprueba si existe una acción a realizar, de lo contrario se finaliza el script con un mensaje de error.
 if (isset($_GET['action'])) {
