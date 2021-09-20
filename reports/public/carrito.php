@@ -1,8 +1,8 @@
 <?php
 // Se verifica si existe el parámetro id en la url, de lo contrario se direcciona a la página web de origen.
 if (isset($_GET['id'])) {
-    require('http://34.125.94.31/var/www/html/movil/php/helpers/report.php');
-    require('http://34.125.94.31/var/www/html/movil/php/models/ordenes.php');
+    require('http://34.125.94.31/var/www/html/movil/helpers/report.php');
+    require('http://34.125.94.31/var/www/html/movil/models/ordenes.php');
 
     // Se instancia el módelo Categorias para procesar los datos.
     $categoria = new Ordenes;
