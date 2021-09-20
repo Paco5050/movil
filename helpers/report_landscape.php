@@ -1,7 +1,7 @@
 <?php
-require('http://34.125.94.31/var/www/html/movil/php/helpers/database.php');
-require('http://34.125.94.31/var/www/html/php/helpers/validator.php');
-require('http://34.125.94.31/var/www/html/php/libraries/fpdf182/fpdf.php');
+require('http://34.125.94.31/var/www/html/movil/helpers/database.php');
+require('http://34.125.94.31/var/www/html/movil/helpers/validator.php');
+require('http://34.125.94.31/var/www/html/movil/libraries/fpdf182/fpdf.php');
 
 /**
 *   Clase para definir las plantillas de los reportes del sitio privado. Para más información http://www.fpdf.org/
